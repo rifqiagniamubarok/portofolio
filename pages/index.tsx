@@ -20,7 +20,7 @@ export default function Home() {
         <div className="m-5">
           <p className="text-[48px] font-semibold">Call me Rifqi</p>
           <p className="text-[48px] font-semibold bg-clip-text text-transparent bg-gradient-to-r from-hexfrom to-hexto">
-            I am a Software Engineer
+            I am a Software Engineer hahah
           </p>
           <button
             className="bg-gradient-to-r from-hexfrom to-hexto rounded-md px-10 py-3 text-white text-xs hover:opacity-90 w-[246px]"
