@@ -1,28 +1,18 @@
-import Head from 'next/head';
-import Image from 'next/image';
-import { Inter } from '@next/font/google';
-import styles from '../styles/Home.module.css';
-
-const inter = Inter({ subsets: ['latin'] });
-
 export default function Home() {
   return (
-    <>
-      <Head>
-        <title>Rifqi Agnia Mubarok | Front end developer</title>
-        <meta name="description" content="Rifqi Agnia Mubarok" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <main className={styles.main}>
-        <div className={styles.description}></div>
-        <div>
-          <h1>Rifqi Agnia Mubarok</h1>
+    <html className="">
+      <div className="min-h-screen min-w-screen dark:bg-slate-950 dark:text-white bg-white text-slate-950">
+        <p className="text-3xl font-semibold">Hello</p>
+        <div className="m-5">
+          <p className="text-[48px] font-semibold">Call me Rifqi</p>
+          <p className="text-[48px] font-semibold bg-clip-text text-transparent bg-gradient-to-r from-hexfrom to-hexto">
+            I am a Software Engineer
+          </p>
+          <button className="bg-gradient-to-r from-hexfrom to-hexto rounded-md px-10 py-3 text-white text-xs hover:opacity-90 w-[246px]">
+            touch me
+          </button>
         </div>
-        <div>
-          <p>Frontend Developer</p>
-        </div>
-      </main>
-    </>
+      </div>
+    </html>
   );
 }
